@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .chess-board { border :spacing: 10px; border-collapse: collapse; }
+        .chess-board td{border: 1px solid;width: 50px;height: 50px; ;}
+        .chess-board th { padding: .5em; }
+        .chess-board th + th { border-bottom: 1px solid #000; }
+        .chess-board th:first-child,
+        .chess-board td:last-child { border-right: 1px solid #000; }
+        .chess-board tr:last-child td { border-bottom: 1px solid; }
+        .chess-board th:empty { border: none; }
+        .chess-board td { width: 40px; height: 40px; text-align: center; font-size: 32px; line-height: 0;}
+        .chess-board .light { background: #eee ; }
+        .chess-board .dark { background:  transparent; }
+        .chess-board {margin-left: auto;margin-right: auto;}
+        body{
+       
+            background-image: url(https://img.freepik.com/premium-photo/swirling-blue-purple-smoke-vape_116124-259.jpg?size=626&ext=jpg&ga=GA1.1.1301089271.1693543067&semt=ais);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        tr   :hover
+        {
+            background-color:;
+            color: #2adfec;
+            width: 50px; 
+            height: auto;
+            -webkit-transition: 2s;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <table class="chess-board">
+        <tbody>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="light">♜</td>
+                <td class="dark">♞</td>
+                <td class="light">♝</td>
+                <td class="dark">♛</td>
+                <td class="light">♚</td>
+                <td class="dark">♝</td>
+                <td class="light">♞</td>
+                <td class="dark">♜</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="dark">♖</td>
+                <td class="light">♘</td>
+                <td class="dark">♗</td>
+                <td class="light">♕</td>
+                <td class="dark">♔</td>
+                <td class="light">♗</td>
+                <td class="dark">♘</td>
+                <td class="light">♖</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
